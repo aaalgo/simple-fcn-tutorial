@@ -15,7 +15,7 @@ wget http://aaalgo.com/picpac/datasets/test  -O db
 
 Train with  ./tf-train.py
 Model will be written 2000 iterations in the model directory.
-Test with ./tf-predict.py --model model/2000
+Test with ./tf-predict.py --model model/4000
 
 
 
