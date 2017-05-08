@@ -18,6 +18,8 @@ wget http://aaalgo.com/picpac/binary/picpac-explorer
 chmod +x picpac-explorer
 ./picpac-explorer db
 
+Read more about picpac here: http://picpac.readthedocs.io/en/latest/
+
 Train with  ./tf-train.py
 Model will be written 2000 iterations in the model directory.
 Test with ./tf-predict.py --model model/4000
