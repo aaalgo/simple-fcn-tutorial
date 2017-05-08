@@ -13,9 +13,13 @@ Software Setup:
 
 wget http://aaalgo.com/picpac/datasets/test  -O db
 
+Use picpac-explorer to browse the dataset
+wget http://aaalgo.com/picpac/binary/picpac-explorer
+chmod +x picpac-explorer
+./picpac-explorer db
+
 Train with  ./tf-train.py
 Model will be written 2000 iterations in the model directory.
 Test with ./tf-predict.py --model model/4000
-
 
 
