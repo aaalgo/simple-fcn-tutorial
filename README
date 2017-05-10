@@ -1,7 +1,7 @@
 Software Setup:
 - Recommended OS: ubuntu 16.04
 - Cuda 8.0 and compatible cuDNN v5.1.
-- Tensorflow v1.0
+- Tensorflow v1.1
 - sudo apt-get install libboost-all-dev libopencv-dev libgoogle-glog-dev python-opencv
 - sudo pip install tqdm scikit-image
 - https://github.com/aaalgo/picpac, install from source.
